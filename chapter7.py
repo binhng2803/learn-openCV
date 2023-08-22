@@ -66,7 +66,7 @@ while True:
 
     # cv2.imshow("Original",img)
     # cv2.imshow("HSV",imgHSV)
-    # cv2.imshow("Mask", mask)
+    # cv2.imshow("Mask", mask)ds
     # cv2.imshow("Result", imgResult)
 
     imgStack = stackImages(0.6,([img,imgHSV],[mask,imgResult]))
